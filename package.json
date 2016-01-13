@@ -1,0 +1,35 @@
+{
+  "name": "ip",
+  "version": "1.0.0",
+  "description": "fetch computer ip address with node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "bin": {
+    "ip": "./index.js",
+    "getip": "./copy.js",
+    "open": "./open.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngusFu/ip.git"
+  },
+  "keywords": [
+    "ip",
+    "address",
+    "nodejs"
+  ],
+  "author": "angusfu1126@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AngusFu/ip/issues"
+  },
+  "homepage": "https://github.com/AngusFu/ip#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "opn": "^3.0.3",
+    "shelljs": "^0.5.3",
+    "yargs": "^3.31.0"
+  }
+}
