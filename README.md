@@ -11,7 +11,7 @@
 
 for node
 ```bash
-$  npm install ip --save-dev
+$  npm install ip-tools
 ```
 
 for command line
