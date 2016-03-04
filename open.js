@@ -10,8 +10,15 @@ var argv = require('yargs')
         describe: 'port',
         type: 'string'
     })
+    .option('u', {
+        alias: 'path',
+        demand: false,
+        default: '/',
+        describe: 'port',
+        type: 'string'
+    })
     .argv;
 
 var ip = require('./index');
 
-open('http://' + ip + (!argv.port ? '' : ':' + argv.port));
+open('http://' + ip + (!argv.port ? '' : ':' + argv.port + argv.path));
