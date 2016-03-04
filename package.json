@@ -9,7 +9,7 @@
   "bin": {
     "ip": "./index.js",
     "getip": "./copy.js",
-    "open": "./open.js"
+    "opn": "./open.js"
   },
   "repository": {
     "type": "git",
