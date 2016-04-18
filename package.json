@@ -1,6 +1,6 @@
 {
   "name": "ip-tools",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "fetch computer ip address with node",
   "main": "index.js",
   "scripts": {
